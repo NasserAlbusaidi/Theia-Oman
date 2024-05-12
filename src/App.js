@@ -35,49 +35,44 @@ function App() {
         <div className="flex items-start ml-auto">
           <ul className="flex space-x-16">
             <li className="font-semibold">
-              <a
-                href="#"
-                className="text-gray-800 hover:text-blue-500 active:underline"
+              <p
+                className="text-gray-800 hover:text-blue-500 active:underline cursor-pointer"
                 onClick={scrollToSection.bind(this, homeRef)}
               >
                 Home
-              </a>
+              </p>
             </li>
             <li className="font-semibold mr-3">
-              <a
-                href="#"
-                className="text-gray-800 hover:text-blue-500"
+              <p
+                className="text-gray-800 hover:text-blue-500 cursor-pointer"
                 onClick={scrollToSection.bind(this, whatWeDoRef)}
               >
                 Services
-              </a>
+              </p>
             </li>
             <li className="font-semibold">
-              <a
-                href="#"
-                className="text-gray-800 hover:text-blue-500"
+              <p
+                className="text-gray-800 hover:text-blue-500 cursor-pointer"
                 onClick={scrollToSection.bind(this, whyUsRef)}
               >
                 Why Us
-              </a>
+              </p>
             </li>
             <li className="font-semibold">
-              <a
-                href="#"
-                className="text-gray-800 hover:text-blue-500 active:underline"
+              <p
+                className="text-gray-800 hover:text-blue-500 active:underline cursor-pointer"
                 onClick={scrollToSection.bind(this, ourTeamRef)}
               >
                 Team
-              </a>
+              </p>
             </li>
             <li className="font-semibold">
-              <a
-                href="#"
-                className="text-gray-800 hover:text-blue-500"
+              <p
+                className="text-gray-800 hover:text-blue-500 cursor-pointer"
                 onClick={scrollToSection.bind(this, locationRef)}
               >
                 Contact
-              </a>
+              </p>
             </li>
             <li className="font-semibold">
               <button className=" text-black px-4 py-1 rounded-r h-3 w-12">
@@ -331,10 +326,8 @@ function App() {
               </div>
             </div>
           </div>
-          {/* solid line */}
           <div className="border-t border-gray-300 mt-8"></div>
 
-          {/* copyright section */}
           <div className="mt-8 text-left text-sm">
             <p>Theia © 2024 | Muscat, Oman</p>
           </div>
