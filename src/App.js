@@ -98,7 +98,6 @@ function App() {
           </ul>
         </div>
       </nav>
-      <Header />
       <section
         className="bg-white py-12 px-4 md:px-8 lg:px-16"
         ref={whatWeDoRef}
