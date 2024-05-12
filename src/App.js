@@ -1,12 +1,8 @@
 import { useRef } from "react";
 import "./App.css";
-import Nav from "./Components/Nav";
-import Header from "./Components/Header";
-import Footer from "./Components/OurTeam";
-import OurTeam from "./Components/OurTeam";
+
 import {
   faLinkedin,
-  faWpressr,
   faDyalog,
   faInstagram,
 } from "@fortawesome/free-brands-svg-icons";
