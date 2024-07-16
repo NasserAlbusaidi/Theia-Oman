@@ -73,7 +73,7 @@ function App() {
               className="text-gray-800 hover:text-blue-500 cursor-pointer"
               onClick={scrollToSection.bind(this, whyUsRef)}
             >
-              Why Us
+              Products
             </p>
           </li>
           <li className="font-semibold">
@@ -137,7 +137,7 @@ function App() {
         id="whatWeDo"
       >
         <div className="max-w-screen-xl mx-auto flex flex-col-reverse md:flex-row items-center">
-          <div className="md:w-1/2 text-center md:text-right p-8">
+          <div className="md:w-1/2 text-right p-8">
             <img
               src="/images/icon.png"
               alt="Feature Icon"
@@ -145,14 +145,14 @@ function App() {
             />
           </div>
           <div className="md:w-1/2 p-8">
-            <h2 className="text-3xl md:text-4xl text-blue-800 mb-8 font-bold text-center md:text-left">
-              What We Do?
+            <h2 className="text-3xl md:text-4xl text-blue-800 mb-8 font-bold text-center">
+              About Us
             </h2>
 
             <div className="space-y-6">
-              <div className="flex flex-col md:flex-row items-start">
+              <div className="flex items-start">
                 <svg
-                  className="h-6 w-6 text-blue-500 mr-2 md:mr-4 md:ml-0"
+                  className="h-6 w-6 text-blue-500 mr-2"
                   fill="none"
                   stroke="currentColor"
                   viewBox="0 0 24 24"
@@ -166,77 +166,17 @@ function App() {
                   ></path>
                 </svg>
                 <div>
-                  <h3 className="text-lg font-semibold text-gray-800">
-                    Purchase Order Management
-                  </h3>
-                  <p className="text-gray-600">
-                    Our inventory management application offers a streamlined
-                    Purchase Order System tailored for health sectors, including
-                    small clinics, dental clinics, and pharmacies. With both
-                    internal and external Purchase Order Management, users can
-                    effortlessly place, monitor, and receive orders, simplifying
-                    the procurement process and ensuring seamless inventory
-                    replenishment.
-                  </p>
+                  
+                <h5 className="text-2xl font-medium text-gray-800 mb-2 text-center">
+                    A software company Our offr specializing in innovative
+                    technical solutions to ana ph extern. sustainability of the
+                    healthcare industry and ensure the steady supply of
+                    medications. based in Oman, n enhance the
+                  </h5>
                 </div>
               </div>
-              <div className="flex flex-col md:flex-row items-start">
-                <svg
-                  className="h-6 w-6 text-blue-500 mr-2 md:mr-4 md:ml-0"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M9 17V7m0 10l3-3m-3 3l3-3m-6-3h12"
-                  ></path>
-                </svg>
-                <div>
-                  <h3 className="text-lg font-semibold text-gray-800">
-                    Inventory Management
-                  </h3>
-                  <p className="text-gray-600">
-                    Our inventory management feature simplifies operations for
-                    health sector businesses like small clinics, dental clinics,
-                    and pharmacies. It includes digital tools for receiving
-                    items, locating orders, transferring products, and managing
-                    returns—all with barcode support. In addition, it offers
-                    predictive demand forecasting for smarter purchasing
-                    decisions.
-                  </p>
-                </div>
-              </div>
-              <div className="flex flex-col md:flex-row items-start">
-                <svg
-                  className="h-6 w-6 text-blue-500 mr-2 md:mr-4 md:ml-0"
-                  fill="none"
-                  stroke="currentColor"
-                  viewBox="0 0 24 24"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    strokeLinecap="round"
-                    strokeLinejoin="round"
-                    strokeWidth="2"
-                    d="M9 17V7m0 10l3-3m-3 3l3-3m-6-3h12"
-                  ></path>
-                </svg>
-                <div>
-                  <h3 className="text-lg font-semibold text-gray-800">
-                    Data Analysis and Viewing Insights
-                  </h3>
-                  <p className="text-gray-600">
-                    Users can leverage powerful analytics tools to gain
-                    actionable insights into inventory trends, sales patterns,
-                    and purchasing behavior, enabling informed decision making
-                    for better business outcomes.
-                  </p>
-                </div>
-              </div>
+              
+              
             </div>
           </div>
         </div>
@@ -252,42 +192,41 @@ function App() {
         ref={whyUsRef}
       >
         <h2 className="text-3xl md:text-4xl font-bold text-blue-800 mb-8 text-center">
-          Why Us?
+          Our Products
         </h2>
-        <div className="max-w-screen-xl mx-auto">
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 md:gap-16">
-            <div className="flex flex-col items-center mb-8">
+
+        <h5 className="text-2xl font-medium text-gray-800 mb-2 text-center">
+          Theia Marketplace: A medical marketplace that enables procurement
+          managers to quickly source vendors offering exclusive prices
+        </h5>
+        {/* <div className="flex flex-col items-center mb-8 mr-auto">
+              {" "}
               <img
                 src="/images/easy.png"
                 alt="Easy"
-                className="w-[250px] h-[250px] mb-4"
+                className="w-[250px] h-[250px] mb-4 "
               />
-              <h3 className="text-lg font-medium text-gray-800 text-center">
-                Easy
-              </h3>
-            </div>
-            <div className="flex flex-col items-center mb-8">
+              <h3 className="text-lg font-medium text-gray-800">Easy</h3>
+            </div> */}
+
+        {/* <div className="flex flex-col items-center mb-8 ml-auto">
+              {" "}
               <img
                 src="/images/affordable.png"
                 alt="Affordable"
                 className="w-[250px] h-[250px] mb-4"
               />
-              <h3 className="text-lg font-medium text-gray-800 text-center">
-                Affordable
-              </h3>
-            </div>
-            <div className="flex flex-col items-center mb-8">
+              <h3 className="text-lg font-medium text-gray-800">Affordable</h3>
+            </div> */}
+        {/* <div className="flex flex-col items-center mb-8 ml-auto ">
+              {" "}
               <img
                 src="/images/accurate.png"
                 alt="Accurate"
                 className="w-[250px] h-[250px] mb-4"
               />
-              <h3 className="text-lg font-medium text-gray-800 text-center">
-                Accurate
-              </h3>
-            </div>
-          </div>
-        </div>
+              <h3 className="text-lg font-medium text-gray-800">Accurate</h3>
+            </div> */}
       </section>
 
       <section
@@ -298,24 +237,24 @@ function App() {
     <h2 className="text-3xl md:text-4xl font-semibold text-gray-800 mb-8 text-center">
       Our Team
     </h2>
-    <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-16">
-      <div className="text-center">
-        <h3 className="text-xl md:text-2xl font-semibold text-gray-800 mb-2">
-          Saba Al Rashdi
-        </h3>
-        <p className="text-gray-500">Co-Founder</p>
-        <p className="text-gray-600 mt-2">
-          Design Thinking and Business Development
-        </p>
-      </div>
-      <div className="text-center">
-        <h3 className="text-xl md:text-2xl font-semibold text-gray-800 mb-2">
-          Fatma Al Akhzami
-        </h3>
-        <p className="text-gray-500">Co-Founder</p>
-        <p className="text-gray-600 mt-2">Media and Project Management</p>
-      </div>
-    </div>
+    <div className="flex justify-center items-center">
+            <div className="">
+              <div>
+                <h3 className="text-xl md:text-2xl font-semibold text-gray-800 mb-2 text-center">
+                  Saba Al Rashdi
+                </h3>
+                <p className="text-gray-500 text-center">Founder & CEO</p>
+                <p className="text-gray-600 mt-2 text-center">Future Sphere LLC</p>
+              </div>
+              {/* <div>
+      <h3 className="text-xl md:text-2xl font-semibold text-gray-800 mb-2">
+        Fatma Al Akhzami
+      </h3>
+      <p className="text-gray-500">Co-Founder</p>
+      <p className="text-gray-600 mt-2">Media and Project Management</p>
+    </div> */}
+            </div>
+            </div>
     <div className="flex justify-center mt-8">
       <span className="h-2 w-2 bg-gray-300 rounded-full mx-1"></span>
       <span className="h-2 w-2 bg-gray-300 rounded-full mx-1"></span>
